@@ -12,8 +12,8 @@ Método de adicionar repositório:
 Apenas um texto estático seguido de um Date.Now() para que capturemos o timestamp atual para termos certeza que os repositórios que estão
 sendo adicionados, não estão sendo repetidos.
 
-#markdown
 
+```javascript
 async function handleAddRepository() {
     const response = await api.post("repositories", {
       title: `Novo Repositório ${Date.now()}`,
@@ -21,3 +21,4 @@ async function handleAddRepository() {
 
     setRepositories([...repositories, response.data]);
   }
+```
