@@ -24,5 +24,5 @@ async function handleAddRepository() {
 ```
 
 Utilizei o Insomnia para visualizar os dados no backend. Logo, temos os dados cadastrados:
-[github]: https://github.com/liveki/imgs/blob/master/novo_repositorio.png
+![alt text](https://github.com/liveki/imgs/blob/master/novo_repositorio.png)
 
